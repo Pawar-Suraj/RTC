@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Train Ticket booking</title>
+</head>
+<body>
+    <form name="train_ticket_booking" >
+        <label for="inputfullname">Enter Full Name:</label>
+        <input type="text" id="inputfullname" required>            <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" required>                      <br/>
+        <lable for="male">Male</lable>
+        <input type="radio" name="gender" id="male">
+        <lable for="male">Female</lable>
+        <input type="radio" name="gender" id="female">      <br/>
+        
+
+        <label for="select-bording">From:</label>
+        <select id="select-bording">
+          <option>--select--</option>
+          <option>Shirampur</option>
+          <option>Rahuri</option>
+          <option>Nashik</option>
+        </select>  &nbsp; &nbsp;
+  
+        
+       
+
+        <label for="select-destination">To:</label>
+        <input list="select-destination"/>
+        <datalist id="select-destination">
+         
+          <option>Pune</option>
+          <option>Nager</option>
+          <option>Mumbai</option>
+        </datalist>  <br/>
+
+        <label for="boarding-time">boarding on/at:</label>
+        <input type="time" id="boarding-time" >            <br>
+
+        <label for="ticketn">Number of tickets:</label>
+        <input type="number" id="ticketn">                      <br/>
+
+        <input type="submit" value="Book Ticket">
+    </form>
+</body>
+</html>
