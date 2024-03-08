@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.logo {
+    text-align: center;
+}
+.logo-img{
+    height: 110px;
+}
+.address {
+    text-align: right;
+}
+hr {
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+.heading {
+    margin-top: 20px;
+}
+.key-value{
+    margin-top: 8px;
+}
+.key {
+   display: inline-block;
+   font-weight: bold;
+   width: 30%;
+   margin-left: 200px;
+   
+}
+.value {
+   display: inline-block;  
+   width: 30%;
+}
+.stamp {
+    text-align: right;
+    margin-top: 20px;
+}
+.stamp-img{
+    height: 150px;
+}
+.footer {
+    bottom: 0;
+    width: 80%;
+    background-color: rgb(135, 22, 215);
+    font-weight: bolder;
+    margin:0px auto;
+    padding: 10px 0;
+}
+
+
+.text-center{
+    text-align: center;
+}
+.dashed-bottom{
+    border-bottom: 1px dashed grey;
+}
