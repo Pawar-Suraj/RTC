@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        if
+        if-else
+        if-else-ladder
+        nested-if
+        switch
+    -->
+    <script>
+        //first block
+        const age=21;
+        if(age == 21)
+        console.log("elegible for vote");
+        //second block
+        if(age>18)
+        console.log('elegible for vote');
+        else
+        console.log("not elegible for vote");
+        //third block
+        if(age < 18)
+        console.log("not elegible for vote");
+        else if(age > 18)
+        console.log("elegible for voting");
+        else if(age == 18)
+        console.log("you're able to vote after the voter id number genereted");
+
+        //switch case
+
+        let day='friday';
+
+        switch(day)
+        {
+            case 'sunday':
+                    console.log('sunday');
+                    break;
+            case 'monday':
+                    console.log('monday');
+                    break;
+            case 'tuseday':
+                    console.log('tuseday');
+                    break;
+            case 'wednesday':
+                    console.log('wednesday');
+                    break;
+            case 'thursday':
+                    console.log('thursday');
+                    break;
+            case 'friday':
+                    console.log('friday');
+                    break;
+            case 'saturday':
+                    console.log('saturday');
+                    break;
+            default:console.log ('invalid input');
+                
+        }
+    </script>
+</body>
+</html>
