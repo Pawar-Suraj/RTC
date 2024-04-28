@@ -20,6 +20,18 @@
         //printing element by index number
         console.log(`element number 3 is :${animals[3]}`)
         //unshift in array
+        animals.unshift('cow');
+        console.log(`after unshift: ${animals}`);
+        animals.shift();
+        console.log(`after shift: ${animals}`);
+        animals.splice(2,2,'parrot','lion');
+        console.log(`splice result: ${animals}`);
+        console.log(animals.join("#"));
+        console.log(`Reverse array: ${animals.reverse()}`);
+        console.log(`Sorted array: ${animals.sort()}`);
+        console.log(`index of animal elephant is ${animals.indexOf("elephant")}`);
+        console.log(`is there tiger present in array: ${animals.includes('tiger')}`);
+        console.log(`is there cat present in array: ${animals.includes('cat')}`)
        
     
     </script>
